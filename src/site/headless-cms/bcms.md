@@ -7,103 +7,43 @@ opensource: "No"
 typeofcms: "API Driven"
 supportedgenerators:
   - All
-description: BCMS is a powerful API-first headless CMS. Comes with strong TypeScript support and rich customization options.
+description: BCMS is a hosted, API-first headless CMS for developers and content teams, with TypeScript SDKs and official starters for Next.js, Nuxt, Astro, Svelte, and Gatsby.
 images:
   - path: /img/cms/bcms-dashboard.jpg
+    alt: BCMS dashboard
 ---
 
-# **BCMS: Headless CMS built for Developers, loved by their Clients**
+[BCMS](https://thebcms.com/) is a hosted headless CMS. You model content as templates, groups, and widgets, then fetch it from any frontend over a REST API. Clients edit in the dashboard. Sites use [`@thebcms/client`](https://www.npmjs.com/package/@thebcms/client) and generated TypeScript types.
 
-BCMS is a powerful headless CMS offering flexible content modeling and API-first architecture. Comes with official SDK integration for Next.js, Astro, Nuxt.js, Svelte and Gatsby.js.
-<br /><br />
+The linked [bcms/cms](https://github.com/bcms/cms) repository is an MIT-licensed self-hosted snapshot. It has been unmaintained since October 2024. The product listed here is the hosted CMS at [thebcms.com](https://thebcms.com/).
 
-<a href="https://thebcms.com/" style="margin: 1rem 0; padding: 1rem; background-color: #c5ff09; color: #04070b; text-decoration: none;  border-radius: 90px; font-size: 1.25rem; font-weight: 600; ">Start for free</a>
+## Features
 
+- Content modeling with templates, groups, widgets, and a drag-and-drop field builder
+- Media library with folders and on-the-fly image processing
+- Localization, scoped API keys, serverless functions, and webhooks
+- Official SDKs and starters for Next.js, Nuxt, Astro, Svelte, and Gatsby
+- [MCP](https://thebcms.com/docs/mcp) so agents can read and update the same content editors manage in the dashboard
 
-<br />
+![Creating a content structure by dragging and dropping fields](/img/cms/bcms-drag-n-drop.gif)
 
-## Architecture
-BCMS provides RESTful APIs and a simple setup that developers can extend to fit their specific needs.
+## Get started
 
-- **API-first**: Built for developers, with RESTful APIs for seamless content access.
-- **Serverless Functions**: Handle forms, emails, and automation directly within BCMS.
+Scaffold a Next.js blog against a new BCMS project:
 
-## Core Features
-
-### Flexible Content Modeling
-- Over 10 built-in input types, including text, images, videos, and documents.
-- Easily create custom content structures using a drag-and-drop interface.
-
-![Creating content structure by drag-n-dropping inputs](/img/cms/bcms-drag-n-drop.gif)
-
-### Omnichannel Content Delivery
-- Publish content across multiple platforms, ensuring easy updates and consistency.
-
-### Internationalization
-- Fully supports multilingual content in any language
-
-### Advanced Media Manager
-- Organize and manage media files using folders and subfolders.
-- Built-in image processing tools with format-specific previews.
-
-## Development
-
-### TypeScript Support
-- Automatically generated types based on your content structure ensure reliable, type-safe development.
-
-### Integrations with Popular Frameworks
-- Out-of-the-box integrations for Next.js, Nuxt.js, Gatsby.js, Svelte and Astro.js simplify development.
-
-### Fast Content Retrieval
-- Use BCMS global search to fetch any content quickly, even for large-scale projects.
-
-## Security & Permissions
-- Fine-grained access control with customizable API keys and permissions.
-
-## Extensibility
-- Extend BCMS with serverless functions, cron jobs, and webhooks to fit any custom project needs.
-
-## Collaborative Content Editing
-- Multiple team members can edit the same entry at once, ensuring smooth collaboration.
-
-
-
-<br />
-
-## Get Started with BCMS and your ❤️ framework
-To integrate BCMS into a Next.js project, follow these steps:
-
-### Create a project with BCMS in under a minute:
 ```sh
-npx @thebcms/cli create
+npx @thebcms/cli create next starter simple-blog
 ```
 
-<br />
+The same CLI accepts `nuxt`, `astro`, `svelte`, and `gatsby`. Step-by-step setup is in the [Next.js guide](https://thebcms.com/docs/next-js). Pull types with `npx @thebcms/cli --pull types`.
 
+## Resources
 
-## Use Cases
-BCMS is optimized for various applications, including:
-- **Programmatic SEO pages**: Generate thousands of SEO-friendly pages efficiently.
-- **Job boards**: Manage job listings with custom templates and workflows.
-- **E-commerce sites**: Easily handle large product catalogs.
-- **Personal and business websites**: Customize content for blogs, portfolios, and corporate sites.
-
-## Official integrations
-
-- [Next.js](https://thebcms.com/docs/next-js)
-- [Nuxt.js](https://thebcms.com/docs/nuxt-js)
-- [Gatsby.js](https://thebcms.com/docs/gatsby-js)
-- [Astro.js](https://thebcms.com/docs/astro)
-
-## Community & Support
 - [Documentation](https://thebcms.com/docs)
-- [Discord Community](https://discord.com/invite/SYBY89ccaR)
-- [GitHub](https://github.com/bcms)
-
-## Code Starters
-Jumpstart your projects with production-ready starters: [https://thebcms.com/starters](https://thebcms.com/starters)
-<br /><br />
-
-<a href="https://thebcms.com/" style="margin: 1rem 0; padding: 1rem; background-color: #c5ff09; color: #04070b; text-decoration: none;  border-radius: 90px; font-size: 1.25rem; font-weight: 600; ">Start for free</a>
-
-<br />
+- [Starters](https://thebcms.com/starters)
+- [Next.js](https://thebcms.com/docs/next-js)
+- [Nuxt](https://thebcms.com/docs/nuxt-js)
+- [Astro](https://thebcms.com/docs/astro)
+- [Svelte](https://thebcms.com/docs/svelte)
+- [Gatsby](https://thebcms.com/docs/gatsby-js)
+- [Discord](https://discord.com/invite/SYBY89ccaR)
